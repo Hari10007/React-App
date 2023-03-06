@@ -9,7 +9,6 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 import jwt, datetime
 
-
 # Create your views here.
 class RegisterView(APIView):
     def post(self, request):
